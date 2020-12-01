@@ -190,9 +190,6 @@ is maintained by [Parity Technologies](https://www.parity.io/).
   [IPFS](https://ipfs.io/).
 - [Gantree Library](https://github.com/gantree-io/gantree-lib-nodejs) - A suite of technologies for
   managing Substrate-powered parachain networks via rapid spin-up & tear-down.
-- [Redspot](https://github.com/patractlabs/redspot) - A
-  [Truffle](https://www.trufflesuite.com/truffle)-like toolkit for smart contracts for the FRAME
-  Contracts pallet.
 - [Proxy Hot Wallet Demo](https://github.com/emostov/proxy-hot-wallet) - A demonstration of a
   secure, convenient, and flexible hot wallet architecture built on Substrate primitives.
 - [Substrate Faucet Bot](https://github.com/starkleytech/substrate-faucet) - Python-based faucet for
@@ -200,12 +197,14 @@ is maintained by [Parity Technologies](https://www.parity.io/).
 - [Hydra](https://github.com/Joystream/hydra) - A GraphQL framework for Substrate nodes with a
   [hosted playground](https://indexer-kusama.joystream.app/graphql). Check out the great
   [docs](https://github.com/Joystream/hydra/tree/master/docs).
+- [Redspot](https://github.com/patractlabs/redspot) - A [Truffle](https://www.trufflesuite.com/truffle)-like/[HardHat](https://github.com/nomiclabs/hardhat)-like development environment to 
+  compile, deploy, test, and debug smart contracts for the FRAME Contracts pallet.
 - [Megaclite](https://github.com/patractlabs/megaclite) - Zero-knowledge tools for the Polkadot
   ecosystem.
-- [Europa](https://github.com/patractlabs/europa) - A sandbox for the Substrate runtime execution
-  environment.
-- [Jupiter](https://github.com/patractlabs/jupiter) - Testnet for smart contracts written for the
-  FRAME Contracts pallet.
+- [Europa](https://github.com/patractlabs/europa) - A [ganache](https://github.com/trufflesuite/ganache)-like sandbox to run and debug smart contracts for 
+  FRAME Contracts pallet and also a sandbox framework for Substrate runtime.
+- [Jupiter](https://github.com/patractlabs/jupiter) - Multiple node Implementations for FRAME Contracts pallet, including a 
+  parachain node, an independent testnet node, and a self-developing node.
 
 ## Alternative Implementations
 
